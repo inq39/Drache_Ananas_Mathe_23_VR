@@ -15,11 +15,11 @@ C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59137
+57509
 Successfully changed project path to: C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 103.91 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 105.78 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001844 seconds.
+Registered in 0.001928 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.63 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 104.74 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.536 seconds
+- Completed reload, in  1.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1536ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1560ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (458ms)
+		EndReloadAssembly (460ms)
 			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
 			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadAttributes (93ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,286 +75,54 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006965 seconds.
+Registered in 0.007030 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.64 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 104.89 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-Assets queued for import after Refresh completed:
-	Assets/XR/Settings/OpenXR Package Settings.asset
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Assertion failed on expression: 'm_Ptr'
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[Library/PackageCache/com.unity.xr.openxr@1.2.2/Editor/FeatureSupport/FeatureHelpers.cs line 188]
-
-- Completed reload, in  1.678 seconds
+- Completed reload, in  1.415 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1678ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1415ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
+			SetupTypeCache (372ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (538ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (553ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (311ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (336ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.4 MB.
-System memory in use after: 188.5 MB.
+Unloading 4886 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.6 MB.
+System memory in use after: 190.5 MB.
 
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 5332.
-Total: 4.441500 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.388600 ms MarkObjects: 2.532400 ms  DeleteObjects: 1.147400 ms)
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 5342.
+Total: 4.130200 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.227700 ms MarkObjects: 2.581700 ms  DeleteObjects: 0.991100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -368,76 +136,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/SimpleCameraController.cs
-  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c3bb98a2d136bf16a3951a043a1d0d') in 0.017624 seconds 
+  path: Assets/Scenes
+  artifactKey: Guid(54650b6940dedc842a0d350ce7f47266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(54650b6940dedc842a0d350ce7f47266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8230bf0e3b59b09ac75d782afa9aa41d') in 0.009325 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 315.291913 seconds.
-  path: Assets/Samples/OpenXR Plugin/1.2.2/Controller
-  artifactKey: Guid(6c2445d9d4ee66047bc4bd3b16a5e42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin/1.2.2/Controller using Guid(6c2445d9d4ee66047bc4bd3b16a5e42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f956432d9aa536dc1bc39b8be13bcb') in 0.006751 seconds 
+  Time since last request: 180.046466 seconds.
+  path: Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8b3aa5512256b463129c7ebed85e27') in 0.014091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.803447 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.007046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 248.695240 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd80af5fb1f9f3528d156ffb438a9612') in 0.006747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.016613 seconds.
+  path: Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8529e4d48d36b5024e2e9f752aeb03e8') in 0.002371 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006976 seconds.
+Registered in 0.007078 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs:102)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:183)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:130)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs line 102]
-
-UnityEngine.UnityException: Creating asset at path Assets\XR\Settings\Open XR Package Settings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, System.String packageName, System.String settingsType) [0x0002e] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:183 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00017] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:130 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1174ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1204ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
+			SetupTypeCache (356ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (292ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (303ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.9 MB.
+System memory in use after: 203.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5346.
+Total: 3.938700 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.220200 ms MarkObjects: 2.407900 ms  DeleteObjects: 1.005200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1048ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
@@ -445,496 +265,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.90 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.6 MB.
-System memory in use after: 193.9 MB.
+System memory in use before: 206.0 MB.
+System memory in use after: 203.2 MB.
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5346.
-Total: 3.931000 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.284000 ms MarkObjects: 2.351100 ms  DeleteObjects: 0.990700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.695675 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions
-  artifactKey: Guid(e6f2ac5cddbbe9245811d276831c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions using Guid(e6f2ac5cddbbe9245811d276831c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70080d7ea4c12d70d6f4460cef04c452') in 0.012746 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs:102)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:183)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:130)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs line 102]
-
-UnityEngine.UnityException: Creating asset at path Assets\XR\Settings\Open XR Package Settings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, System.String packageName, System.String settingsType) [0x0002e] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:183 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00017] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:130 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1241ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.9 MB.
-System memory in use after: 200.1 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5351.
-Total: 4.387800 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.208200 ms MarkObjects: 2.799500 ms  DeleteObjects: 1.041700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.10 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 89.9 MB.
-
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 5351.
-Total: 4.420100 ms (FindLiveObjects: 0.340900 ms CreateObjectMapping: 0.223200 ms MarkObjects: 2.750000 ms  DeleteObjects: 1.105000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.64 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 89.9 MB.
-
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 5351.
-Total: 4.322900 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.210900 ms MarkObjects: 2.669200 ms  DeleteObjects: 1.125600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 464.710368 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset
-  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16670b800db6788a6c2019e24f3b4ddb') in 0.042633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.587308 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset
-  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcadb25ec308300406d5962f5bf2377') in 0.016138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.011576 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset
-  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4262c9a3ed65a32472f92dcc7aabada0') in 0.009680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.497350 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
-  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c06ac9a8df405e63ab2abd71447da72') in 0.013666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.708485 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset
-  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ccefdc474ceb738a43be42fa0dd200') in 0.010663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.175284 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset
-  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da3fe9c90d3328ccbda1acb67679066') in 0.012010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.852173 seconds.
-  path: Assets/Samples/OpenXR Plugin/1.2.2/Controller/ControllerSample.unity
-  artifactKey: Guid(edb91e86bd8b7dc4ca40ad6c3167de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin/1.2.2/Controller/ControllerSample.unity using Guid(edb91e86bd8b7dc4ca40ad6c3167de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b337d8e70882f925f8956874c983fc') in 0.007063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.915224 seconds.
-  path: Assets/Samples/OpenXR Plugin/1.2.2/Controller/ControllerSampleSettings.lighting
-  artifactKey: Guid(dd1e405409c0e6449b23b661f5e1536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin/1.2.2/Controller/ControllerSampleSettings.lighting using Guid(dd1e405409c0e6449b23b661f5e1536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f7303d11de0798997461e001fe41b2') in 0.006914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.706865 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(3aa98f2db9ecc1f4ca3dc79332b8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(3aa98f2db9ecc1f4ca3dc79332b8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7ec595f89a5c5b2ace4f5d69e7c048') in 0.006487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.496499 seconds.
-  path: Assets/Samples/OpenXR Plugin
-  artifactKey: Guid(e3d72b650af72144ea501073a7e39376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin using Guid(e3d72b650af72144ea501073a7e39376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fca18c0a00941507839cfba7ebf7d90') in 0.008013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.122669 seconds.
-  path: Assets/Samples/OpenXR Plugin/1.2.2
-  artifactKey: Guid(b15fef78129ba4b49b2b141d076d2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin/1.2.2 using Guid(b15fef78129ba4b49b2b141d076d2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1295bce1176712b45a03daf084574f') in 0.007262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.965833 seconds.
-  path: Assets/Samples/OpenXR Plugin/1.2.2/Controller/ActionMap/InputActions.inputactions
-  artifactKey: Guid(e0ca4504471ca124088e1e2cfe6804ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin/1.2.2/Controller/ActionMap/InputActions.inputactions using Guid(e0ca4504471ca124088e1e2cfe6804ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37e271ea1b65f77e80cce0af3eab2cd') in 0.013265 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs:102)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:183)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:130)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs line 102]
-
-UnityEngine.UnityException: Creating asset at path Assets\XR\Settings\Open XR Package Settings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, System.String packageName, System.String settingsType) [0x0002e] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:183 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00017] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:130 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1277ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.0 MB.
-System memory in use after: 200.2 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5356.
-Total: 4.405900 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.758500 ms  DeleteObjects: 1.122500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007264 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs:102)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:183)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:130)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs line 102]
-
-UnityEngine.UnityException: Creating asset at path Assets\XR\Settings\Open XR Package Settings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, System.String packageName, System.String settingsType) [0x0002e] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:183 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00017] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:130 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1275ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.1 MB.
-System memory in use after: 200.3 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5361.
-Total: 4.387000 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.223800 ms MarkObjects: 2.722000 ms  DeleteObjects: 1.127100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013931 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs:102)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:183)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:130)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.6/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.xr.management@4.0.6/Editor/EditorUtilities.cs line 102]
-
-UnityEngine.UnityException: Creating asset at path Assets\XR\Settings\Open XR Package Settings.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, System.String packageName, System.String settingsType) [0x0002e] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:183 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00017] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:130 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.xr.management@4.0.6\Editor\XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1503ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1285ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (442ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (469ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.8 MB.
-System memory in use after: 200.1 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5366.
-Total: 4.976500 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.342600 ms MarkObjects: 2.911700 ms  DeleteObjects: 1.205700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 11.22 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 90.6 MB.
-
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 5366.
-Total: 5.767500 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.346500 ms MarkObjects: 3.586100 ms  DeleteObjects: 1.322900 ms)
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5350.
+Total: 3.979400 ms (FindLiveObjects: 0.335600 ms CreateObjectMapping: 0.218900 ms MarkObjects: 2.393300 ms  DeleteObjects: 1.030000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

@@ -63,14 +63,14 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 6358710333211245058}
   - {fileID: 5716218250369764000}
   - {fileID: 5237709122407911275}
   - {fileID: 7913631300066380427}
   - {fileID: -4873918222447314083}
   - {fileID: 615024673566339451}
   - {fileID: -3333663484670805489}
-  m_renderMode: 1
+  - {fileID: 6358710333211245058}
+  m_renderMode: 0
   m_depthSubmissionMode: 0
 --- !u!114 &-8227658895518984451
 MonoBehaviour:
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -561,8 +561,8 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -9108066140582297882}
   - {fileID: -5099644647403600303}
-  - {fileID: 8157789401141737054}
   - {fileID: 4218591857115649939}
   - {fileID: 4436841260842051308}
   - {fileID: 7060247929790817824}
@@ -570,9 +570,9 @@ MonoBehaviour:
   - {fileID: 4263460562460297410}
   - {fileID: -2621532207320281769}
   - {fileID: 6440847102172051531}
-  - {fileID: -9108066140582297882}
   - {fileID: -265038913305209844}
-  m_renderMode: 1
+  - {fileID: 8157789401141737054}
+  m_renderMode: 0
   m_depthSubmissionMode: 0
 --- !u!114 &-1445629381043517415
 MonoBehaviour:
