@@ -15,11 +15,11 @@ C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53679
+57893
 Successfully changed project path to: C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 C:/unity-workspace/Drache_Ananas_Mathe_23_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.40 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 112.89 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001809 seconds.
+Registered in 0.001837 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.30 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 109.36 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.828 seconds
+- Completed reload, in  1.713 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007497 seconds.
+Registered in 0.007658 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.74 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 110.29 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
+- Completed reload, in  1.405 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4818 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.5 MB.
-System memory in use after: 182.6 MB.
+Unloading 4870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.9 MB.
+System memory in use after: 188.0 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 5295.
-Total: 4.115100 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.223800 ms MarkObjects: 3.397600 ms  DeleteObjects: 0.093800 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 5348.
+Total: 3.301100 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.200300 ms MarkObjects: 2.657600 ms  DeleteObjects: 0.059200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -84,55 +86,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset
-  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.036920 seconds 
-  Import took 0.043681 seconds .
+  path: Assets/Features/VRHands/Prefabs/LeftHand.prefab
+  artifactKey: Guid(82ba8fa12c028034e8dc8fe678c0b477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/LeftHand.prefab using Guid(82ba8fa12c028034e8dc8fe678c0b477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315fffdcc7bd1163116eada1966d795') in 0.041945 seconds 
+  Import took 0.048735 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset
-  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c535d499cc3f394b161a582cab7b97') in 0.014341 seconds 
-  Import took 0.021516 seconds .
+  Time since last request: 4.045830 seconds.
+  path: Assets/Features/VRHands/Prefabs/LeftUIController.prefab
+  artifactKey: Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/LeftUIController.prefab using Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa86c11cb496e5381bc81d85f8026cf') in 0.037119 seconds 
+  Import took 0.044930 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.237957 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset
-  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5147fac95f957b370d29f0afe3119') in 0.008835 seconds 
-  Import took 0.015700 seconds .
+  Time since last request: 0.002204 seconds.
+  path: Assets/Features/VRHands/Prefabs/LeftUIController.prefab
+  artifactKey: Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/LeftUIController.prefab using Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa86c11cb496e5381bc81d85f8026cf') in 0.003759 seconds 
+  Import took 0.011006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.651733 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset
-  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e039f96452fb154a4fabce180b317f') in 0.008808 seconds 
-  Import took 0.016023 seconds .
+  Time since last request: 394.446529 seconds.
+  path: Assets/Features/VRHands/Prefabs
+  artifactKey: Guid(669b74e81960b5141ab7a46054962a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs using Guid(669b74e81960b5141ab7a46054962a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13fa8632c2e51638b86a13b649aa79d') in 0.006084 seconds 
+  Import took 0.014016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.611163 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset
-  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcd3ff63fcd09b3be425163d5c9845') in 0.009559 seconds 
-  Import took 0.017220 seconds .
+  Time since last request: 228.857492 seconds.
+  path: Assets/Features/VRHands/HandsExample.unity
+  artifactKey: Guid(46daf90c38f16774283f88722b3ccea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/HandsExample.unity using Guid(46daf90c38f16774283f88722b3ccea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112f811e4b9bd6e2f49df069f6370139') in 0.005488 seconds 
+  Import took 0.013198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.134151 seconds.
+  path: Assets/Features/VRHands/Textures
+  artifactKey: Guid(c7c61d67951fde54bb707638d5271e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Textures using Guid(c7c61d67951fde54bb707638d5271e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1c48b97c2222ef348b785fcb3e490b') in 0.006052 seconds 
+  Import took 0.012583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.118397 seconds.
+  path: Assets/Features/VRHands
+  artifactKey: Guid(bbc633ee9843a8544a6b7a4bbbba0552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands using Guid(bbc633ee9843a8544a6b7a4bbbba0552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302993dba26d03d90dc6897c8a5e87b4') in 0.004994 seconds 
+  Import took 0.011885 seconds .
 
 ========================================================================
 Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 19ba41d7c0026c3459d37c2fe90c55a0
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 8.15 ms, found 8 plugins.
+Registering precompiled user dll's ...
+Registered in 0.007775 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.9 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.9 MB.
+System memory in use after: 197.2 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 5343.
-Total: 4.056900 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.207600 ms MarkObjects: 3.432500 ms  DeleteObjects: 0.022700 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 5348.
+Total: 3.011300 ms (FindLiveObjects: 0.433500 ms CreateObjectMapping: 0.215600 ms MarkObjects: 2.337800 ms  DeleteObjects: 0.023100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -144,3 +173,1619 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4754 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.1 MB.
+System memory in use after: 197.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 5356.
+Total: 4.168000 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.386000 ms MarkObjects: 3.340900 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.206936 seconds.
+  path: Assets/Features/VRHands/Models/Masks/Index.mask
+  artifactKey: Guid(b32e16e8a3a03b34580257982c11e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks/Index.mask using Guid(b32e16e8a3a03b34580257982c11e0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491f47832809c10da4ea0f4658d60dd') in 0.033468 seconds 
+  Import took 0.041379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674888 seconds.
+  path: Assets/Features/VRHands/Models/Masks/Middle.mask
+  artifactKey: Guid(4c8892ec6b2ee9345ac2cd865ff4f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks/Middle.mask using Guid(4c8892ec6b2ee9345ac2cd865ff4f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a819bb0e134ee3b71f46fff862b1ea3') in 0.005514 seconds 
+  Import took 0.012012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.223752 seconds.
+  path: Assets/Features/VRHands/Models/Masks/Pinky.mask
+  artifactKey: Guid(e7b3465171059a54d807f114e9059319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks/Pinky.mask using Guid(e7b3465171059a54d807f114e9059319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf08cf0686aa807a479b5502e727edf') in 0.006231 seconds 
+  Import took 0.013182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452100 seconds.
+  path: Assets/Features/VRHands/Models/Masks/Ring.mask
+  artifactKey: Guid(2c373b8d4cafdcf418291251addde501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks/Ring.mask using Guid(2c373b8d4cafdcf418291251addde501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c0642474064ee56366ad9b82470d89') in 0.006624 seconds 
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418401 seconds.
+  path: Assets/Features/VRHands/Models/Masks/Thumb.mask
+  artifactKey: Guid(f26a1e1e7683640448069f082ecb5f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks/Thumb.mask using Guid(f26a1e1e7683640448069f082ecb5f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff9c53a0409ae5dc39385007e5c7ca') in 0.005570 seconds 
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.581473 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e5b47a83215e65ccfc8c9b36a51aa') in 0.003766 seconds 
+  Import took 0.010609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.936026 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85460053ec29d7fb01f9c0a9ff3181d0') in 0.002169 seconds 
+  Import took 0.008709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.729088 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions
+  artifactKey: Guid(e6f2ac5cddbbe9245811d276831c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions using Guid(e6f2ac5cddbbe9245811d276831c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70080d7ea4c12d70d6f4460cef04c452') in 0.012181 seconds 
+  Import took 0.020008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.486643 seconds.
+  path: Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b94d639ca8b676c66b46817d281cbc') in 0.012433 seconds 
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.929803 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4
+  artifactKey: Guid(a1c660d45c4691b419f4abec8f615c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4 using Guid(a1c660d45c4691b419f4abec8f615c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70946d7b9dddab80c89113e23e192ca8') in 0.006173 seconds 
+  Import took 0.012971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551309 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(ae091bf298b721042b1fccd92705fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(ae091bf298b721042b1fccd92705fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510cfdfe4c801d6e04ffade479e986e9') in 0.005529 seconds 
+  Import took 0.012817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.432858 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.2.3/Controller/Prefabs/PoseMarker.prefab
+  artifactKey: Guid(759d6c64eadd0244eb752fb65642d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.2.3/Controller/Prefabs/PoseMarker.prefab using Guid(759d6c64eadd0244eb752fb65642d6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9429ac1959a8ec59a366b7b233de5967') in 0.158848 seconds 
+  Import took 0.166566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.460583 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1966229f3d7993f283b578bcf544b58') in 0.006358 seconds 
+  Import took 0.013262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905768 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(67954fa16cc27f744afc5b0f38a448aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(67954fa16cc27f744afc5b0f38a448aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6af7ae372a98f62fc78ae9e9bbc5473') in 0.001733 seconds 
+  Import took 0.008713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.067699 seconds.
+  path: Assets/Features
+  artifactKey: Guid(1ac7975abe212a142900861626ff035c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features using Guid(1ac7975abe212a142900861626ff035c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b935ac8d7c0481ba608b938de50ff774') in 0.005281 seconds 
+  Import took 0.012561 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007519 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4750 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.4 MB.
+System memory in use after: 199.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5402.
+Total: 3.603000 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.198100 ms MarkObjects: 2.961000 ms  DeleteObjects: 0.032000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007447 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4754 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.5 MB.
+System memory in use after: 199.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 5410.
+Total: 3.025900 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.231400 ms MarkObjects: 2.403200 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 813.406467 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(f53ce88d5028fe8428e07eea3239b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(f53ce88d5028fe8428e07eea3239b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [XR] Error loading subsystem: Display (1) (header mismatch?)
+ -> (artifact id: '12ccdd05cf7b521470ccff6cefe5217b') in 0.043887 seconds 
+  Import took 0.052269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.662327 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(be122c3c06bed2d46959d3cb25d498f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(be122c3c06bed2d46959d3cb25d498f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226b9a125fb54881166ed6373f44d65e') in 0.007190 seconds 
+  Import took 0.014079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723302 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(6d9c76d36ca90034491a8dc3f4fb3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(6d9c76d36ca90034491a8dc3f4fb3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afd6d91ccae8ae28c9d5e575274396f') in 0.017999 seconds 
+  Import took 0.024854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.628305 seconds.
+  path: Assets/XR/Loaders/Open XR Loader No Pre Init.asset
+  artifactKey: Guid(3502a56656ea4294d832633b092ad047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open XR Loader No Pre Init.asset using Guid(3502a56656ea4294d832633b092ad047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e91ba4ec5a6be6a235fc4a15f43792') in 0.013539 seconds 
+  Import took 0.020441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924927 seconds.
+  path: Assets/XR/Loaders/Open XR Loader.asset
+  artifactKey: Guid(185b16988581e6549a6fbf5cc226ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(185b16988581e6549a6fbf5cc226ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcf9fedd2daee8ec6e6e49ae41880cb') in 0.006428 seconds 
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.616900 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4610495503ffa540c7c04a22bdc2ad17') in 0.053892 seconds 
+  Import took 0.060653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png
+  artifactKey: Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled@2x.png using Guid(fd12dbe3b63ae464f824b4a74c0e1766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581a54437d18ca5b4f18568a4e774051') in 0.014077 seconds 
+  Import took 0.020259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled.png
+  artifactKey: Guid(91746a504b59769439bb2749c314d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled.png using Guid(91746a504b59769439bb2749c314d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0578ceeeb0294b03edf337d1722f11') in 0.013899 seconds 
+  Import took 0.020570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png
+  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6578d82ad4a310b6f97e41f3a340ccf5') in 0.013494 seconds 
+  Import took 0.020434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled.png
+  artifactKey: Guid(4bf6507f1346b2746a35384f6a5fd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled.png using Guid(4bf6507f1346b2746a35384f6a5fd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb135ba860f1045a41f4e38d1f58d02') in 0.014040 seconds 
+  Import took 0.020883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png
+  artifactKey: Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png using Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41978dfd28541214910c6fedbf856ab9') in 0.014060 seconds 
+  Import took 0.021220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled@2x.png
+  artifactKey: Guid(51bf5f55a8a01e546bf6092b54fdae20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonEnabled@2x.png using Guid(51bf5f55a8a01e546bf6092b54fdae20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ba2b8cd755be206dd4138c636c493c') in 0.016043 seconds 
+  Import took 0.022877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled.png
+  artifactKey: Guid(54623075676bd504d93243fb18745161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled.png using Guid(54623075676bd504d93243fb18745161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5589890896c623eec422f9110e5d86') in 0.013549 seconds 
+  Import took 0.020125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png
+  artifactKey: Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonDisabled@2x.png using Guid(fd194f75fe3d7ca4488fa775ae832fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb77813fb7c683c49ca7eff0e45d32fb') in 0.012889 seconds 
+  Import took 0.019624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png
+  artifactKey: Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png using Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ee59ac234d3e54167e4803f57e75de') in 0.012505 seconds 
+  Import took 0.018982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png
+  artifactKey: Guid(fc4618fe47c3a4a4395e0fa7a839921b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png using Guid(fc4618fe47c3a4a4395e0fa7a839921b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27911a05b7192f22a520a5b9ee1fad5') in 0.023712 seconds 
+  Import took 0.030413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled@2x.png
+  artifactKey: Guid(7c05578092876a0458b8b480269aef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled@2x.png using Guid(7c05578092876a0458b8b480269aef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1098904bf5d290253add18db44d00c') in 0.013072 seconds 
+  Import took 0.019362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png
+  artifactKey: Guid(a553409d46d2f0341a53411e40d9a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png using Guid(a553409d46d2f0341a53411e40d9a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85a39372ff3ae87d2d6a6c0468ef808') in 0.014132 seconds 
+  Import took 0.020427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png
+  artifactKey: Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png using Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0244c097be9769deecc075ff06e49429') in 0.012985 seconds 
+  Import took 0.019091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.129997 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar
+  artifactKey: Guid(43aad6ec3599fb84a89e8fce31748cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar using Guid(43aad6ec3599fb84a89e8fce31748cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd72d60db8df637f1fc87d62f4df7b0') in 0.006301 seconds 
+  Import took 0.013241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.686674 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/ApplyCircleMask.cs
+  artifactKey: Guid(e76ce7703143a924b9c0693ee66ebee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/ApplyCircleMask.cs using Guid(e76ce7703143a924b9c0693ee66ebee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70a06773a9b8cc372d1a54ae684db7a') in 0.007397 seconds 
+  Import took 0.014026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793470 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs
+  artifactKey: Guid(43c380b3a07cbf449a54619bb50096b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs using Guid(43c380b3a07cbf449a54619bb50096b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb13a779a874322640010d2d2c7292c') in 0.005749 seconds 
+  Import took 0.012575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs
+  artifactKey: Guid(43c380b3a07cbf449a54619bb50096b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs using Guid(43c380b3a07cbf449a54619bb50096b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb13a779a874322640010d2d2c7292c') in 0.001800 seconds 
+  Import took 0.009874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.703286 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/GetAvatar.cs
+  artifactKey: Guid(0afb4c6d979970647841ee14a55b8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/GetAvatar.cs using Guid(0afb4c6d979970647841ee14a55b8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8e4a02ee80c2a110331f71f511ee75') in 0.006115 seconds 
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.371699 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI
+  artifactKey: Guid(565f0b089a3d53c4e9a329a5ec1392eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/UI using Guid(565f0b089a3d53c4e9a329a5ec1392eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaae0a102319509eaee6aba5c399117') in 0.004879 seconds 
+  Import took 0.018479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.915796 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06372fccb8711e46cadcd066b9e1acb') in 0.014678 seconds 
+  Import took 0.021697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.405537 seconds.
+  path: Packages/com.unity.xr.management
+  artifactKey: Guid(7261f87f4da69cdd49931374cabce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management using Guid(7261f87f4da69cdd49931374cabce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd322ce031f94c3e3cdaba904c824a3ec') in 0.012097 seconds 
+  Import took 0.018920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.475446 seconds.
+  path: Packages/com.unity.xr.management/ValidationExceptions.json
+  artifactKey: Guid(63eee5bec272620428c6c597db1eb2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/ValidationExceptions.json using Guid(63eee5bec272620428c6c597db1eb2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6b0d9d8f4f72f0a75f50263f5bbb27') in 0.007138 seconds 
+  Import took 0.014263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.532635 seconds.
+  path: Packages/com.unity.xr.management/README.md
+  artifactKey: Guid(88d2132b5a4df4c659790dc2260104b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/README.md using Guid(88d2132b5a4df4c659790dc2260104b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be886c2ae5129cbe4a382ae0cef8ee5') in 0.007087 seconds 
+  Import took 0.013919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.385926 seconds.
+  path: Packages/com.unity.xr.management/package.json
+  artifactKey: Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.management/package.json using Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ae100a275bbc06892422a0fade52b') in 0.005542 seconds 
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.510457 seconds.
+  path: Packages/com.unity.render-pipelines.universal
+  artifactKey: Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal using Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08795c2ff7aa8a59dc34e295bc15f9') in 0.005054 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.486030 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0d1a54879432a123a59da856550d5b') in 0.006269 seconds 
+  Import took 0.013026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010493 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0d1a54879432a123a59da856550d5b') in 0.002467 seconds 
+  Import took 0.009281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.154957 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72be010170f4a25e680cf020f1a0ccae') in 0.005797 seconds 
+  Import took 0.012362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.733260 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac3dd92c5d8491191fecb6438038b07') in 0.005967 seconds 
+  Import took 0.019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.303434 seconds.
+  path: Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5340278c3c4a04dfd3023459342b1ef') in 0.001901 seconds 
+  Import took 0.008809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 445.496031 seconds.
+  path: Assets/Features/VRHands/Models/Masks
+  artifactKey: Guid(bf6814a77c0706f409aa4295fccacf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/Masks using Guid(bf6814a77c0706f409aa4295fccacf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4979234ca2fd153ac6f5f3ac542f7646') in 0.005199 seconds 
+  Import took 0.013284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.276540 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75920a80bc7249377e7488a866806ed4') in 0.002218 seconds 
+  Import took 0.009880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.532753 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252582894b2c56d1760af7ec73fda0d1') in 0.002132 seconds 
+  Import took 0.009035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020622 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0e6a53424da565fe0975ab7697fb5') in 0.002361 seconds 
+  Import took 0.010258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006719 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0e6a53424da565fe0975ab7697fb5') in 0.002395 seconds 
+  Import took 0.009091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.321478 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d7034136508dbdfc203f8f8518c051') in 0.001948 seconds 
+  Import took 0.008812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.816717 seconds.
+  path: Assets/Features/VRHands/Models/RightHand.blend
+  artifactKey: Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Models/RightHand.blend using Guid(4f04638f9de194c40aac8bd662b6ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a4616b04311c8e91d803fba8daf8f0') in 0.002214 seconds 
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.128937 seconds.
+  path: Assets/Features/VRHands/Prefabs/LeftUIController.prefab
+  artifactKey: Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/LeftUIController.prefab using Guid(e18415156db356a409426911e5a3ff44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033353 seconds  code(4) message(Build asset version error: assets/features/vrhands/prefabs/leftuicontroller.prefab in SourceAssetDB has modification time of '2021-04-29T10:30:38Z' while content on disk has modification time of '2021-07-05T13:57:37.9957782Z')
+  ERROR: Build asset version error: assets/features/vrhands/prefabs/leftuicontroller.prefab in SourceAssetDB has modification time of '2021-04-29T10:30:38Z' while content on disk has modification time of '2021-07-05T13:57:37.9957782Z'
+  Import took 0.040038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.087106 seconds.
+  path: Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph
+  artifactKey: Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph using Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59a403a47dc31f2d3f7d6b4da29800') in 0.010893 seconds 
+  Import took 0.017885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316613 seconds.
+  path: Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph
+  artifactKey: Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph using Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59a403a47dc31f2d3f7d6b4da29800') in 0.003427 seconds 
+  Import took 0.010986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.813657 seconds.
+  path: Assets/Features/VRHands/Prefabs/RightHandUIController.prefab
+  artifactKey: Guid(4b8b9bfceccc0004cbe7e3a4de4bc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/RightHandUIController.prefab using Guid(4b8b9bfceccc0004cbe7e3a4de4bc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1216e66c985185b4cd6200f6143ee458') in 0.007709 seconds 
+  Import took 0.014686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083457 seconds.
+  path: Assets/Features/VRHands/Prefabs/RightHandUIController.prefab
+  artifactKey: Guid(4b8b9bfceccc0004cbe7e3a4de4bc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/VRHands/Prefabs/RightHandUIController.prefab using Guid(4b8b9bfceccc0004cbe7e3a4de4bc413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c6114635b5fc052c1ef2d1e4c81dfd') in 0.003869 seconds 
+  Import took 0.010580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2169.398267 seconds.
+  path: Assets/Materials/Interaction_gold_mat.mat
+  artifactKey: Guid(d9362f08fb88f77449ff76c255122e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Interaction_gold_mat.mat using Guid(d9362f08fb88f77449ff76c255122e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07392bd11b679c7fa4ce94d5430c32ab') in 0.141832 seconds 
+  Import took 0.149536 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.1 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 5488.
+Total: 3.803200 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.219500 ms MarkObjects: 2.745600 ms  DeleteObjects: 0.372000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 456.801933 seconds.
+  path: Packages/com.unity.xr.openxr/Editor/OpenXRBuildProcessor.cs
+  artifactKey: Guid(2580abafffb1dc249ba2c1db66c66865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.openxr/Editor/OpenXRBuildProcessor.cs using Guid(2580abafffb1dc249ba2c1db66c66865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f64aa88f1bb3d3e32688075a354d92') in 0.010201 seconds 
+  Import took 0.018411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972889 seconds.
+  path: Packages/com.unity.xr.openxr/Editor/OpenXREditorSettings.cs
+  artifactKey: Guid(975057b4fdcfb8142b3080d19a5cc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.openxr/Editor/OpenXREditorSettings.cs using Guid(975057b4fdcfb8142b3080d19a5cc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d14a6dcc0f3dbdbdde522f690d972e1') in 0.006606 seconds 
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007584 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4767 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 202.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5492.
+Total: 4.170300 ms (FindLiveObjects: 0.532800 ms CreateObjectMapping: 0.285400 ms MarkObjects: 3.022700 ms  DeleteObjects: 0.328600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 933.476744 seconds.
+  path: Assets/Scripts 1
+  artifactKey: Guid(d9d0bb7f677e66b478d35e50d51ba08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts 1 using Guid(d9d0bb7f677e66b478d35e50d51ba08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8ff5779ab619389242bfaa83cf652e') in 0.010944 seconds 
+  Import took 0.018672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.901665 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd7ca10b5bf32e886eec457cf073a7') in 0.006832 seconds 
+  Import took 0.013636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682550 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.005464 seconds 
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.149813 seconds.
+  path: Assets/Scripts/Interaction
+  artifactKey: Guid(d63919de121165446b4166bcf0079f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction using Guid(d63919de121165446b4166bcf0079f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c814146912696f6f30d8c65ef99885a3') in 0.005470 seconds 
+  Import took 0.012729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.870926 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ed6a7785b1f67449e5b5a34e5cfc1e') in 0.006375 seconds 
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008879 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ed6a7785b1f67449e5b5a34e5cfc1e') in 0.001762 seconds 
+  Import took 0.010025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 202.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5497.
+Total: 3.787300 ms (FindLiveObjects: 0.518200 ms CreateObjectMapping: 0.365200 ms MarkObjects: 2.571700 ms  DeleteObjects: 0.331300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 301.804905 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44cf6ca1719539831faa7740d6cb7ee') in 0.009175 seconds 
+  Import took 0.018133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042907 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44cf6ca1719539831faa7740d6cb7ee') in 0.001842 seconds 
+  Import took 0.009562 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5501.
+Total: 3.757100 ms (FindLiveObjects: 0.480400 ms CreateObjectMapping: 0.229800 ms MarkObjects: 2.733800 ms  DeleteObjects: 0.311700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175.155180 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b91a98e9e7008de11e101709f6d3f9') in 0.009012 seconds 
+  Import took 0.018236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042183 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b91a98e9e7008de11e101709f6d3f9') in 0.001569 seconds 
+  Import took 0.008802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.943631 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db330a4b63fa3747e02bd7d99104ce8') in 0.001582 seconds 
+  Import took 0.008802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.406868 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582e917c57abd82c7f2f7fb3a3cbf3f7') in 0.001638 seconds 
+  Import took 0.008680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032798 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582e917c57abd82c7f2f7fb3a3cbf3f7') in 0.002026 seconds 
+  Import took 0.010639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5505.
+Total: 3.854600 ms (FindLiveObjects: 0.535000 ms CreateObjectMapping: 0.258900 ms MarkObjects: 2.729800 ms  DeleteObjects: 0.329700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162.262216 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a5125690f13a6d33e01a2cce235abc') in 0.006832 seconds 
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039949 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a5125690f13a6d33e01a2cce235abc') in 0.001571 seconds 
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007493 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 202.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5509.
+Total: 3.871800 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.228000 ms MarkObjects: 2.872800 ms  DeleteObjects: 0.336700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.277782 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dc86b99a70772b5335bdd39fdffc94') in 0.006763 seconds 
+  Import took 0.014815 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5513.
+Total: 3.895400 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.248000 ms MarkObjects: 2.882300 ms  DeleteObjects: 0.321700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.438492 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d7e6611ce496f7ad0738ad1978a5b') in 0.008922 seconds 
+  Import took 0.018955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042027 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d7e6611ce496f7ad0738ad1978a5b') in 0.001761 seconds 
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5517.
+Total: 3.738700 ms (FindLiveObjects: 0.563900 ms CreateObjectMapping: 0.358100 ms MarkObjects: 2.491900 ms  DeleteObjects: 0.323700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.511674 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b07489f1a8b7894c10063bbdd218f') in 0.006016 seconds 
+  Import took 0.014162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040469 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b07489f1a8b7894c10063bbdd218f') in 0.001628 seconds 
+  Import took 0.009588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5521.
+Total: 3.734100 ms (FindLiveObjects: 0.484300 ms CreateObjectMapping: 0.328800 ms MarkObjects: 2.556200 ms  DeleteObjects: 0.363900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 304.796778 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49064381433500931edb915308dd22e') in 0.009078 seconds 
+  Import took 0.018257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035772 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49064381433500931edb915308dd22e') in 0.001760 seconds 
+  Import took 0.009792 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.220 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5525.
+Total: 3.399700 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.241600 ms MarkObjects: 2.436900 ms  DeleteObjects: 0.314600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 830.554479 seconds.
+  path: Assets/Scripts/Interaction/XRPushButton.cs
+  artifactKey: Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/XRPushButton.cs using Guid(59c8c81262bd46549bdb1ee0d1bf7693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1823ffc2dbdb59042320e483bbc66699') in 0.009389 seconds 
+  Import took 0.018512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010587 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 202.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5529.
+Total: 13.138300 ms (FindLiveObjects: 3.061900 ms CreateObjectMapping: 1.739400 ms MarkObjects: 7.533500 ms  DeleteObjects: 0.799400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.611648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5533.
+Total: 3.787300 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 0.233600 ms MarkObjects: 2.714300 ms  DeleteObjects: 0.317100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007506 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5537.
+Total: 3.812800 ms (FindLiveObjects: 0.459500 ms CreateObjectMapping: 0.251600 ms MarkObjects: 2.783500 ms  DeleteObjects: 0.317200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5541.
+Total: 3.614100 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.281200 ms MarkObjects: 2.541000 ms  DeleteObjects: 0.334800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5545.
+Total: 4.125000 ms (FindLiveObjects: 0.447300 ms CreateObjectMapping: 0.238900 ms MarkObjects: 3.098300 ms  DeleteObjects: 0.339400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 202.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5549.
+Total: 3.891700 ms (FindLiveObjects: 0.431900 ms CreateObjectMapping: 0.217800 ms MarkObjects: 2.920300 ms  DeleteObjects: 0.320700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5553.
+Total: 3.862800 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.230000 ms MarkObjects: 2.855500 ms  DeleteObjects: 0.329800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007505 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5557.
+Total: 4.030800 ms (FindLiveObjects: 0.429000 ms CreateObjectMapping: 0.200500 ms MarkObjects: 3.076200 ms  DeleteObjects: 0.324000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64815.774398 seconds.
+  path: Assets/Features/BasicPushButton/Scripts/XRPushButton.cs
+  artifactKey: Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/BasicPushButton/Scripts/XRPushButton.cs using Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bed5014f80add9eac3262315053fba') in 0.014207 seconds 
+  Import took 0.023714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.372538 seconds.
+  path: Assets/Features/BasicPushButton/Scripts/XRPushButton_import.cs
+  artifactKey: Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/BasicPushButton/Scripts/XRPushButton_import.cs using Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc72d2202182452eade0e79d5ff55e5') in 0.007021 seconds 
+  Import took 0.014611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.172189 seconds.
+  path: Assets/Features/BasicPushButton/Scripts/XRPushButton_import.cs
+  artifactKey: Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/BasicPushButton/Scripts/XRPushButton_import.cs using Guid(85cf91a91a5d3fe4c8c0ff1a64a35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421ee87cc265df228bae7f2aead6ca57') in 0.001770 seconds 
+  Import took 0.008860 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009331 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.6 MB.
+System memory in use after: 202.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5562.
+Total: 3.698500 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.238900 ms MarkObjects: 2.672600 ms  DeleteObjects: 0.350800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\unity-workspace\Drache_Ananas_Mathe_23_VR\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.6 MB.
+System memory in use after: 202.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5566.
+Total: 3.792500 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.222900 ms MarkObjects: 2.824300 ms  DeleteObjects: 0.316200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6523.991713 seconds.
+  path: Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mathe23_Addition_Fluss_Scene.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9ecf0cd4348b8d93041065066489d') in 0.265100 seconds 
+  Import took 0.276162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.767642 seconds.
+  path: Assets/Scenes/Test_Area.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test_Area.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec6229039f64e226e333f9b682ed1a') in 0.008152 seconds 
+  Import took 0.015396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001586 seconds.
+  path: Assets/Scenes/Test_Area.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test_Area.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec6229039f64e226e333f9b682ed1a') in 0.002473 seconds 
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.287406 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4c0f9868ae6f5fb206e301e9f8573') in 0.007149 seconds 
+  Import took 0.013980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.560744 seconds.
+  path: Assets/Scenes/URP_SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/URP_SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbc92cf99e822897c838ff03059109d') in 0.103367 seconds 
+  Import took 0.759138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.294708 seconds.
+  path: Assets/Scenes/VR_Test_Area.unity
+  artifactKey: Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VR_Test_Area.unity using Guid(83c565e9d65643442a4c5ed3fd44cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ec30efe090e8abeb88fde03e4788d') in 0.006428 seconds 
+  Import took 0.013866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.988151 seconds.
+  path: Assets/Features/BasicPushButton/PushButtonExample.unity
+  artifactKey: Guid(1a5856340bdb2d0479df8a54dd80bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Features/BasicPushButton/PushButtonExample.unity using Guid(1a5856340bdb2d0479df8a54dd80bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1895ff9c4b3cf0173e4b509cb8f840f5') in 0.014078 seconds 
+  Import took 0.020979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.490895 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c06ac9a8df405e63ab2abd71447da72') in 0.020372 seconds 
+  Import took 0.027689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.344443 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.2.3/Controller/Models/Cone.fbx
+  artifactKey: Guid(fa14a214e9ffb1a42850851e0ad9db52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.2.3/Controller/Models/Cone.fbx using Guid(fa14a214e9ffb1a42850851e0ad9db52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab8dd08cf0db057cb087b1099dcfc38') in 0.257671 seconds 
+  Import took 0.265006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.408747 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.2.3/Controller/ControllerSample.unity
+  artifactKey: Guid(edb91e86bd8b7dc4ca40ad6c3167de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.2.3/Controller/ControllerSample.unity using Guid(edb91e86bd8b7dc4ca40ad6c3167de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b337d8e70882f925f8956874c983fc') in 0.007592 seconds 
+  Import took 0.014186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.141416 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.2.3/Controller/ControllerSampleSettings.lighting
+  artifactKey: Guid(dd1e405409c0e6449b23b661f5e1536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.2.3/Controller/ControllerSampleSettings.lighting using Guid(dd1e405409c0e6449b23b661f5e1536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f7303d11de0798997461e001fe41b2') in 0.007406 seconds 
+  Import took 0.014804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.817017 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.2.3/Controller/README.md
+  artifactKey: Guid(6b33e75d1baec3e4382e17efd69e38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.2.3/Controller/README.md using Guid(6b33e75d1baec3e4382e17efd69e38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1afd228218e8e5b81e54f386d6df567') in 0.007155 seconds 
+  Import took 0.014928 seconds .
+
